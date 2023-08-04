@@ -1,0 +1,99 @@
+/* CSS FLEX-BOX */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.red {
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.green {
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: green;
+}
+.pink {
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: pink;
+}
+.bleu {
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: blue;
+}
+.yellow {
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: yellow;
+}
+.purple {
+    flex: 1 1 200px;
+    height: 100px;
+    background-color: purple;
+}
+
+
+
+/* CSS GRID */
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.red2 {
+    height: 100px;
+    background-color: red;
+}
+
+.green2 {
+    height: 100px;
+    background-color: green;
+}
+
+.pink2 {
+    height: 100px;
+    background-color: pink;
+}
+
+.bleu2 {
+    height: 100px;
+    background-color: blue;
+}
+
+.yellow2 {
+    height: 100px;
+    background-color: yellow;
+}
+
+.purple2 {
+    height: 100px;
+    background-color: purple;
+}
+
+/* CHEES */
+.wrapper3 {
+    display: grid;
+    grid-template: repeat(8, 1fr)/repeat(8, 1fr);
+    max-width: 800px;
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: #f0d9b5;
+}
+
+.black {
+    height: 100px;
+    width: 100px;
+    background-color: #b58863;
+}
